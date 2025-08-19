@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+@plugin "daisyui" {
+  themes: light --default, autumn;
+}
+
+* {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.arabic, [lang="ar"] {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: embed;
+  /* Better Arabic rendering */
+  font-feature-settings: 'liga' 1, 'calt' 1, 'ccmp' 1, 'locl' 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.text-logo {
+  font-family: "Nothing You Could Do", cursive;
+}
