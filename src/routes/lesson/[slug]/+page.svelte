@@ -3,6 +3,10 @@
     const lesson = data.lesson;
 </script>
 
+<svelte:head>
+    <title>{lesson.pagetitle}</title>
+</svelte:head>
+
 <main>
     <!-- Centered Layout -->
     <article class="p-6 md:p-2 md:w-[60vw] mx-auto">
