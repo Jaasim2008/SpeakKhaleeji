@@ -5,7 +5,7 @@
 
 <main>
     <!-- Centered Layout -->
-    <article class="w-[60vw] mx-auto p-2">
+    <article class="p-6 md:p-2 md:w-[60vw] mx-auto">
         <!-- Breadcrumbs -->
         <div class="breadcrumbs text-sm">
         <ul>
