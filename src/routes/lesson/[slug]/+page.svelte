@@ -14,7 +14,7 @@
         <div class="breadcrumbs text-sm">
         <ul>
             <li><a class="text-primary italic underline" href="/#lessons">Lesson</a></li>
-            <li>{lesson.title}</li>
+            <li>{lesson.pagetitle}</li>
         </ul>
         </div>
         <!-- Render Content -->
