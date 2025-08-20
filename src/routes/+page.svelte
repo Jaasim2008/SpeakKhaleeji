@@ -53,7 +53,7 @@
                     <div class="badge badge-secondary text-xs md:text-base">{lesson.badge}</div>
                 </div>
                 <p class="text-sm md:text-base">{@html lesson.description}</p>
-                <button class="btn btn-sm btn-outline btn-primary ml-auto text-xs md:text-base" type="button"><a href={'/lesson/' + lesson.urltitle}>Read</a></button>
+                <a href={'/lesson/' + lesson.urltitle} class="btn btn-sm btn-outline btn-primary ml-auto text-xs md:text-base" type="button">Read</a>
             </div>
             {/each}
         </div>

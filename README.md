@@ -10,3 +10,4 @@ Please post them in the Issues. I will check and clear them out!
 - Tailwind CSS
 - DaisyUI for Components
 - Lucide for Iconography
+- Not Vibe Coded
