@@ -9,7 +9,7 @@
         <!-- Breadcrumbs -->
         <div class="breadcrumbs text-sm">
         <ul>
-            <li>Lesson</li>
+            <li><a class="text-primary italic underline" href="/#lessons">Lesson</a></li>
             <li>{lesson.title}</li>
         </ul>
         </div>
