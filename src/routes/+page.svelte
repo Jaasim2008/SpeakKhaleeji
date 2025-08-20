@@ -50,7 +50,7 @@
             <div class="bg-accent p-2 md:p-4 flex flex-col gap-2 rounded border border-black">
                 <div class="flex gap-1 justify-between items-center">
                     <h3 class="md:text-xl font-bold">{lesson.title}</h3>
-                    <div class="badge badge-secondary text-xs md:text-base">{lesson.badge}</div>
+                    <div class="badge badge-secondary text-xs md:text-sm truncate">{lesson.badge}</div>
                 </div>
                 <p class="text-sm md:text-base">{@html lesson.description}</p>
                 <a href={'/lesson/' + lesson.urltitle} class="btn btn-sm btn-outline btn-primary ml-auto text-xs md:text-base" type="button">Read</a>
