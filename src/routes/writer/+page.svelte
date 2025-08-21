@@ -10,7 +10,8 @@
         {name: 'Arabic Text', kbd: '<span class="arabic"></span>'},
         {name: 'H1', kbd: '<h1 class="text-xl font-bold"></h1>'},
         {name: 'H3', kbd: '<h3 class="text-lg font-bold"></h3>'},
-        {name: 'Translit.', kbd: '<i class="text-slate-700 text-sm"> ()</i>'}
+        {name: 'Translit.', kbd: '<i class="text-slate-700 text-sm"> ()</i>'},
+        {name: 'Meaning', kbd: '<p>: <span class="arabic"></span><i class="text-slate-700 text-sm"> ()</i></p>'}
     ];
 
     function updateContent(val: string) {
